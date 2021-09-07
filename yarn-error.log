@@ -1,0 +1,67 @@
+Arguments: 
+  D:\FrontEnd\NodeJs\node.exe D:\FrontEnd\yarn1\bin\yarn.js init
+
+PATH: 
+  D:\FrontEnd\Cmder\vendor\git-for-windows\mingw64\bin;D:\FrontEnd\Cmder\vendor\git-for-windows\usr\bin;C:\Users\zourui\bin;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\FrontEnd\NodeJs;D:\FrontEnd\yarn1\bin;D:\FrontEnd\VSCode\Microsoft VS Code\bin;C:\Program Files (x86)\Calibre2;C:\Users\zourui\AppData\Local\Microsoft\WindowsApps;D:\日常文件\VSCode\Microsoft VS Code\bin;C:\Users\zourui\AppData\Roaming\npm;C:\Users\zourui\AppData\Local\Yarn\bin;C:\Windows\System32
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (D:\FrontEnd\yarn1\lib\cli.js:137009:13)
+      at Interface.emit (events.js:376:20)
+      at Interface._ttyWrite (readline.js:880:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:376:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1149:36)
+      at ReadStream.emit (events.js:376:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  {
+    "name": "webpack-demo-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack serve --open",
+  
+      "build": "rm -rf dist && webpack",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@webpack-cli/serve": "^1.5.2",
+      "css-loader": "^3.2.0",
+      "dart-sass": "^1.23.7",
+      "file-loader": "^5.0.2",
+      "html-webpack-plugin": "^3.2.0",
+      "less": "^3.10.3",
+      "less-loader": "^5.0.0",
+      "mini-css-extract-plugin": "^0.8.0",
+      "sass-loader": "^8.0.0",
+      "style-loader": "^1.0.1",
+      "stylus": "^0.54.7",
+      "stylus-loader": "^3.0.2",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10",
+      "webpack-dev-server": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
